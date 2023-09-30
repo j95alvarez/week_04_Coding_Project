@@ -90,12 +90,12 @@ public class Project {
 		
 		// 7. Write a method that takes a String, word, and an int, n, as arguments and returns the word concatenated to itself
 		// n number of times. (i.e. if I pass in “Hello” and 3, I expect the method to return “HelloHelloHello”).
-		System.out.print("Enter word to concatenate to itself: ");
+		System.out.print("7. Enter word to concatenate to itself: ");
 		String word = in.nextLine();
 		System.out.print("Enter the number of times: ");
 		int times = in.nextInt();
 		String question7Result = wordConcatenatedToItself(word, times);
-		System.out.println("7. The concatenated result is: " + question7Result);
+		System.out.println("The concatenated result is: " + question7Result);
 		
 		in.nextLine(); // Clearing buffer		
 		
@@ -103,12 +103,12 @@ public class Project {
 		// the first and the last name as a String separated by a space).
 
 		
-		System.out.print("Enter your first name: ");
+		System.out.print("8. Enter your first name: ");
 		String fName = in.nextLine();
 		System.out.print("Enter your last name: ");
 		String lName = in.nextLine();
 		
-		System.out.println("8. The concatenated result is: " + fullName(fName, lName));
+		System.out.println("The concatenated result is: " + fullName(fName, lName));
 
 		// 9. Write a method that takes an array of int and returns true if the sum of all the ints in the array is greater than 100.
 		System.out.println("9. Is the sum of the array greater than 100? " + isSumGreaterThan100(ages));
@@ -130,7 +130,7 @@ public class Project {
 		System.out.println("12. Will buy drink? " + willBuyDrink(isHotOutside, moneyInPocket));
 		
 		// 13. Calculate the monthly car payment
-		System.out.println("Enter total loan amount: ");
+		System.out.println("13. Enter total loan amount: ");
 		double principle = in.nextDouble();
 		
 		System.out.println("Enter interest rate (in decimal): ");
@@ -138,7 +138,7 @@ public class Project {
 		
 		System.out.println("Enter number of years of the loan: ");
 		int years = in.nextInt();
-		System.out.println("13. The monthly car payments is: " + String.format("%.2f", calcMontlyCarPayment(principle, rate, years)));
+		System.out.println("The monthly car payments is: " + String.format("%.2f", calcMontlyCarPayment(principle, rate, years)));
 		
 	}
 	
